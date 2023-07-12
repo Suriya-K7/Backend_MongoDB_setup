@@ -1,3 +1,4 @@
+/*
 const mongoose = require("mongoose");
 
 // console.log(process.argv);
@@ -67,3 +68,4 @@ Note.find({}, {}).then((notes) => {
   console.log(notes);
   mongoose.connection.close();
 });
+*/
