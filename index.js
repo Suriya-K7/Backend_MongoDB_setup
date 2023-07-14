@@ -9,7 +9,6 @@ app.use(cors());
 app.use(express.json());
 
 const URL = process.env.ATLAS_URI;
-// const URL = `mongodb+srv://suriyak7:suriya12345678@cluster0.labtl46.mongodb.net/------here need to paste collection names-------?retryWrites=true&w=majority`;
 
 mongoose
   .connect(URL)
